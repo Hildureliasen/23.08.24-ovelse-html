@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", start);
+
 const article = document.querySelector("#article");
 
 console.log("idk:", article.textContent);
