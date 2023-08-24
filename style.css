@@ -1,0 +1,30 @@
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 9fr;
+  gap: 5%;
+}
+
+h2 {
+  display: grid;
+  grid-row: 1;
+  font-size: 40px;
+  margin-left: 10%;
+}
+
+article {
+  display: grid;
+  grid-row: 2 / span 1;
+
+  border: solid 1px #000000;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: solid 1px #e1e1e1;
+}
+
+img
